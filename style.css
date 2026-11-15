@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -7,16 +8,86 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f4f8;
-    text-align: center;
-    padding: 50px;
+    color: #333;
+    line-height: 1.6;
 }
 
-h1 {
-    color: #007bff;
+/* Thanh tiêu đề */
+.header {
+    background-color: #2864e8;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+.header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.header p {
+    font-size: 14px;
+}
+
+/* Nội dung chính */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Khung thông tin sinh viên */
+.student-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.student-card h2 {
+    color: #1760e8;
+    font-size: 21px;
+    margin-bottom: 12px;
+    margin-top: 15px;
+}
+
+.student-info p {
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.student-card > p {
+    margin-bottom: 15px;
+}
+
+.student-card ul {
+    padding-left: 25px;
     margin-bottom: 20px;
 }
 
-p {
-    color: #333;
-    font-size: 18px;
+/* Liên kết GitHub */
+.github-link {
+    margin-top: 20px;
+}
+
+.github-link a {
+    display: inline-block;
+    background-color: #2864e8;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.github-link a:hover {
+    background-color: #1749b5;
+}
+
+/* Chân trang */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+    font-size: 13px;
 }
